@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulir Keren - CoollXD</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('URL_GAMBAR_ANIME') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .form-container {
+      background: rgba(255, 255, 255, 0.85);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+    }
+
+    .form-title {
+      font-size: 2em;
+      font-weight: bold;
+      color: #2a2a72;
+      margin-bottom: 10px;
+    }
+
+    .form-container h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    .form-group label {
+      display: block;
+      color: #555;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      outline: none;
+      transition: border-color 0.3s;
+    }
+
+    .form-group input:focus {
+      border-color: #009ffd;
+    }
+
+    .form-group .button {
+      width: 100%;
+      padding: 12px;
+      background: #009ffd;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .form-group .button:hover {
+      background: #2a2a72;
+    }
+
+    .form-footer {
+      margin-top: 20px;
+      color: #555;
+    }
+
+    .form-footer a {
+      color: #009ffd;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .form-footer a:hover {
+      color: #2a2a72;
+    }
+
+    .creator-info {
+      position: absolute;
+      bottom: 10px;
+      right: 15px;
+      font-size: 12px;
+      color: #aaa;
+    }
+
+    .audio-container {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <div class="form-title">CoollXD</div>
+    <h2>Formulir Pendaftaran</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Nama Lengkap</label>
+        <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Nomor Telepon</label>
+        <input type="tel" id="phone" name="phone" placeholder="Masukkan nomor telepon Anda" required>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="button">Daftar Sekarang</button>
+      </div>
+    </form>
+    <div class="form-footer">
+      Sudah punya akun? <a href="#">Masuk di sini</a>
+    </div>
+
+    <!-- Pemutar Lagu Offline -->
+    <div class="audio-container">
+      <audio controls>
+        <source src="https://drive.google.com/file/d/189ncvrY98pVq-2EHaW3GYcAvuZDnRa0C/view?usp=drivesdk" type="audio/mp3">
+      </audio>
+    </div>
+    
+    <div class="creator-info">
+      Dibuat oleh CoollXD
+    </div>
+  </div>
+
+</body>
+</html>
